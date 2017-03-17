@@ -1,0 +1,17 @@
+.todo-card-wide {
+  width: 100%;
+  .mdl-list {
+    .mdl-list__item {
+      &.done {
+        opacity: 0.5;
+        background-color: #ccc;
+        border-bottom: 1px solid #fff;
+      }
+      .mdl-list__item-secondary-action {
+        .mdl-button {
+          margin: 0 4px;
+        }
+      }
+    }
+  }
+}
